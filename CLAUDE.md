@@ -6,6 +6,17 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 This is a Next.js 16.1.0 application using the App Router architecture, bootstrapped with `create-next-app`. The project is configured with TypeScript, Tailwind CSS v4, and ESLint.
 
+## Documentation-First Development
+
+**CRITICAL**: Before generating any code, Claude Code MUST ALWAYS refer to the relevant documentation files within the `/docs` directory. These files contain essential guidelines, patterns, best practices, and technical specifications that should inform all code generation.
+
+- Check for relevant documentation files before implementing features
+- Follow patterns and conventions documented in `/docs`
+- Consult API documentation, architectural decisions, and coding standards from the docs
+- If documentation is missing or unclear, ask the user for clarification
+
+- docs/ui.md
+
 ## Development Commands
 
 ### Running the Application
